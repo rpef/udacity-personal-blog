@@ -1,0 +1,16 @@
+@import "style.css";
+
+/* Grid Setup */
+.container {
+    display: grid;
+    width: 100%;
+    margin: auto;
+    justify-items: center;
+    /* border: 3px solid greenyellow; */
+    grid-template-columns: 100%;
+    grid-template-rows: 70px auto 100px;
+    grid-template-areas: 
+    "nv"
+    "main"
+    "ft";
+}
