@@ -1,4 +1,6 @@
 @import "style.css";
+@import "blog-cards.css";
+@import "footer.css";
 
 /* Grid Setup */
 .container {

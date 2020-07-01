@@ -4,15 +4,17 @@
         <meta charset = "utf-8" />
         <title>RoloLand</title>
         <meta name = "Rolo's Space of Awesomeness" content="Yeah." />
+        <meta name="viewport" content="width=device-width">
         <link rel = "stylesheet" href="css/blog-styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <!-- Main Layout -->
+        <!-- Layout -->
         <div class = "container">
+
             <!-- Navigation Bar -->
-            <div class= "box" id= "navbar-container">
+            <nav class= "box" id= "navbar-container">
                 <div class= "button">
                     <a href="/index.html">Home</a>
                 </div>
@@ -22,59 +24,91 @@
                 <div class= "button">
                     <a href="/contact.html">Contact</a>
                 </div>
-            </div>
-            <!-- Recent Blog Posts -->
-            <div class= "box" id= "blogposts">
-                <div class="blog-title">
-                    <h2>Latest Blog Posts:</h2>
-                </div>
-                <div class="break"></div>
-                <div class= "blog-box">
-                    <div id= "blog1">
-                        <div class="post-title">
-                            <a href="/blog-posts/blog-post-1.html"><h3>3 Tips to get asleep in less than 5 minutes</h3></a>
+            </nav>
+
+            <!-- Recent Blog Posts (Main Content) -->
+            <main>
+                <section class= "box" id= "blogposts">
+                    <div class="blog-title">
+                        <h2>Latest Blog Posts:</h2>
+                    </div>
+                    <div class="break"></div>
+                    <div class= "blog-box">
+                        <div id= "blog1">
+                            <div class="post-title">
+                                <a href="/blog-posts/blog-post-1.html"><h3>3 Tips to get asleep in less than 5 minutes</h3></a>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button>
+                                <a href="/blog-posts/blog-post-1.html">Read More</a>
+                            </button>
                         </div>
                     </div>
-                </div>
-                <div class= "blog-box">
-                    <div id= "blog2">
-                        <div class="post-title">
-                            <a href="/blog-posts/blog-post-2.html"><h3>Places you should go and never go back</h3></a>
+                    <div class= "blog-box">
+                        <div id= "blog2">
+                            <div class="post-title">
+                                <a href="/blog-posts/blog-post-2.html"><h3>Places you should go and never go back</h3></a>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button>
+                                <a href="/blog-posts/blog-post-2.html">Read More</a>
+                            </button>
                         </div>
                     </div>
-                </div>
-                <div class= "blog-box">
-                    <div id= "blog3">
-                        <div class="post-title">
-                            <a href="/blog-posts/blog-post-3.html"><h3>Amazing things most people believe to be true</h3></a>
+                    <div class= "blog-box">
+                        <div id= "blog3">
+                            <div class="post-title">
+                                <a href="/blog-posts/blog-post-3.html"><h3>Amazing things most people believe to be true</h3>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button>
+                                <a href="/blog-posts/blog-post-3.html">Read More</a>
+                            </button>
                         </div>
                     </div>
-                </div>
-                <div class= "blog-box">
-                    <div id= "blog4">
-                        <div class="post-title">
-                            <a href="/blog-posts/blog-post-4.html"><h3>Why are you visiting this site?</h3></a>
+                    <div class= "blog-box">
+                        <div id= "blog4">
+                            <div class="post-title">
+                                <a href="/blog-posts/blog-post-4.html"><h3>Why are you visiting this site?</h3>
+                            </div>
                         </div>
-                        
-                    </div>
-                </div>
-                <div class= "blog-box">
-                    <div id= "blog5">
-                        <div class="post-title">
-                            <a href="/blog-posts/blog-post-5.html"><h3>Ideas for social distancing to be epic</h3></a>
+                        <div class="button-container">
+                            <button>
+                                <a href="/blog-posts/blog-post-4.html">Read More</a>
+                            </button>
                         </div>
                     </div>
-                </div>
-                <div class= "blog-box">
-                    <div id= "blog6">
-                        <div class="post-title">
-                            <a href="/blog-posts/blog-post-6.html"><h3>Incredible story: chef reveals secrets</h3></a>
+                    <div class= "blog-box">
+                        <div id= "blog5">
+                            <div class="post-title">
+                                <a href="/blog-posts/blog-post-5.html"><h3>Ideas for social distancing to be epic</h3>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button>
+                                <a href="/blog-posts/blog-post-5.html">Read More</a>
+                            </button>
                         </div>
                     </div>
-            </div>
+                    <div class= "blog-box">
+                        <div id= "blog6">
+                            <div class="post-title">
+                                <a href="/blog-posts/blog-post-6.html"><h3>Incredible story: chef reveals secrets</h3>
+                            </div>
+                        </div>
+                        <div class="button-container">
+                            <button>
+                                <a href="/blog-posts/blog-post-6.html">Read More</a>
+                            </button>
+                        </div>
+                    </section>
+            </main>
                 
             <!-- Page Footer -->
-            <div class= "box" id="footer">
+            <footer class= "box" id="footer">
                 <div class="footer-rights">
                     <p>2020 All rights reserved.</p>
                 </div>
@@ -85,7 +119,7 @@
                     <a href="http://www.linkedin.com"><img src="/images/socials/linkedin.png" alt="Linkedin" /></a>
                     <a href="http://www.whatsapp.com"><img src="/images/socials/whatsapp.png" alt="Whatsapp" /></a>
                 </div>
-            </div>
+            </footer>
         </div>
     </body>
 </html>
