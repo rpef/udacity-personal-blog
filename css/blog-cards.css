@@ -1,0 +1,129 @@
+/* Blogposts */
+#blogposts {
+    grid-area: main;
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.break {
+    flex-basis: 100%;
+    height: 0;
+    margin-bottom: 20px;
+  }
+
+.blog-title {
+    margin-top: 50px;
+}
+
+h2 {
+    color: #444;
+    font-family: 'Roboto', sans-serif;
+}
+
+.blog-box {
+    width: 300px;
+    height: 300px;
+	position: relative;
+    display: inline-block;
+    margin: 50px;
+    padding-bottom: 20px;
+
+}
+
+/* Buttons */
+.button-container {
+    margin: 30px auto 60px auto;
+    text-align: center;
+}
+
+button {
+    background-color: #ffa600;
+	border-radius: 28px;
+	border: 1px solid #ffffff;
+	display: inline-block;
+	cursor: pointer;
+	color: #ffffff;
+	font-family: Arial;
+	font-size: 17px;
+	padding: 16px 31px;
+	text-decoration: none;
+}
+
+
+/* Placing images with CSS rather than HTML */
+#blog1 {
+    background-image: url(/images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#blog2 {
+    background-image: url(/images/2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#blog3 {
+    background-image: url(/images/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#blog4 {
+    background-image: url(/images/4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#blog5 {
+    background-image: url(/images/5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#blog6 {
+    background-image: url(/images/6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.post-title {
+    background-color: orange;
+    position: absolute;
+    top: 210px;
+    height: 6em;
+    width: 100%;
+    padding-bottom: 15px;
+}
+
+h3 {
+    color: whitesmoke;
+    margin-left: 8px;
+    font-size: 25px;
+}
+
+
+/* Small Screens */
+@media (max-width:740px) {
+    h3 {
+        font-size: 22px;
+    }
+
+    #blogposts {
+        width: 100%;
+    }
+}
